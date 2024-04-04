@@ -23,9 +23,6 @@ export default function Article() {
         < >
             {articleList.map(article =>
                 <>
-                    <li>{article.id}</li>
-                    <li>{article.title}</li>
-                    <li>{article.createdDate}</li>
                 </>
 
             )}
